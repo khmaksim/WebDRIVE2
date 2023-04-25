@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=com.github.WebDRIVE2
+Exec=/usr/bin/com.github.WebDRIVE2
+Name=DRIVE2
+Name[ru]=ДРАЙВ2
+
+[X-Sailjail]
+Permissions=WebView;Audio;Internet;UserDirs;RemovableMedia;MediaIndexing
+OrganizationName=com.github
+ApplicationName=WebDRIVE2

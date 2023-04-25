@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Generated file. This file is used by SDK to show example inside Welcome screen. It is not the part of the example. -->
+<instructionals module="Aurora ОС">
+ <examples>
+  <example projectPath="ru.auroraos.TinyBrowser.pro" name="TinyBrowser" imageUrl="/Users/kolobok/Library/Application Support/AuroraOS-SDK/QtCreator/AuroraОС/TinyBrowser/icons/128x128/ru.auroraos.TinyBrowser.png">
+   <description><![CDATA[The project provides an example of using WebView]]></description>
+   <tags>Qt,example</tags>
+   <platforms>Mer</platforms>
+   <preferredFeatures>Mer.Wizard.Feature.Emulator</preferredFeatures>
+   <fileToOpen>/qml/ru.auroraos.TinyBrowser.qml</fileToOpen>
+  </example>
+ </examples>
+</instructionals>
