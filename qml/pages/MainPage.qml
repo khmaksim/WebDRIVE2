@@ -58,6 +58,10 @@ Page {
         }
         url: _initUrl
 
+        onLinkClicked: {
+            load(url)
+        }
+
         Component.onCompleted: {
             PermissionManager.instance();
         }

@@ -1,7 +1,7 @@
 Name:       com.github.WebDRIVE2
 Summary:    DRIVE2
-Version:    0.1
-Release:    1
+Version:    0.1.1
+Release:    1%{?dist}
 Group:      Qt/Qt
 License:    BSD-3-Clause
 URL:        https://community.omprussia.ru/open-source
