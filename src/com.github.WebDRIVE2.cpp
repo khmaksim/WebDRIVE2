@@ -49,6 +49,7 @@ int main(int argc, char *argv[])
     auto view = SailfishApp::createView();
     view->setSource(SailfishApp::pathToMainQml());
     view->show();
+//    view->engine()->networkAccessManager();
 
     return application->exec();
 }

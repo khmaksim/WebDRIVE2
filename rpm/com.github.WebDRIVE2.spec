@@ -1,10 +1,10 @@
 Name:       com.github.WebDRIVE2
 Summary:    DRIVE2
-Version:    0.1.1
-Release:    1%{?dist}
+Version:    0.1.3
+Release:    2%{?dist}
 Group:      Qt/Qt
 License:    BSD-3-Clause
-URL:        https://community.omprussia.ru/open-source
+URL:        https://github.com/khmaksim/WebDRIVE2
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   sailfishsilica-qt5 >= 0.10.9
 Requires:   sailfish-components-webview-qt5
@@ -19,7 +19,7 @@ BuildRequires:  pkgconfig(qt5embedwidget)
 BuildRequires:  desktop-file-utils
 
 %description
-Неофициальное WebView проложения для сообщества машин и людей на основе официального сайта DRIVE2.ru
+Неофициальное WebView приложения для сообщества машин и людей на основе официального сайта DRIVE2.ru
 
 %prep
 %autosetup

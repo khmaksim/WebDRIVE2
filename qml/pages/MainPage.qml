@@ -63,7 +63,8 @@ Page {
         }
 
         Component.onCompleted: {
-            PermissionManager.instance();
+            WebEngineSettings.cookieBehavior = WebEngineSettings.AcceptAll
+//            PermissionManager.instance();
         }
     }
 
